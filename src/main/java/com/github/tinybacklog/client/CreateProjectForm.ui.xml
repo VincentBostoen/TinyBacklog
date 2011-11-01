@@ -1,0 +1,16 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:c="urn:import:com.github.tinybacklog.client.components">
+	<g:FlowPanel styleName="formPanel">
+		<g:Label>Nom du projet :</g:Label>
+		<c:FormField ui:field="projectNameField" placeholder="Nom du projet"></c:FormField>
+		
+		<g:Label>Résumé :</g:Label>
+		<g:TextArea ui:field="summaryField" styleName="inputField textArea"></g:TextArea>
+		
+		<g:Label>Email :</g:Label>
+		<c:FormField ui:field="mailField" placeholder="createur@mail.com"></c:FormField>
+		
+		<g:Button styleName="inputField formButton" ui:field="validateButton">Créer</g:Button>
+	</g:FlowPanel>		
+</ui:UiBinder> 

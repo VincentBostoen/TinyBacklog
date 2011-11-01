@@ -1,0 +1,2 @@
+serviceClass: com.github.tinybacklog.client.ProjectService
+path: 4319C17CB5EC76893B93C85EF62B9C40.gwt.rpc

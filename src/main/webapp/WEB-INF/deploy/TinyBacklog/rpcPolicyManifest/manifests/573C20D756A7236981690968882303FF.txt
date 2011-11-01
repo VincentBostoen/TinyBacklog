@@ -1,0 +1,2 @@
+serviceClass: com.github.tinybacklog.client.GreetingService
+path: 96B7185C112B0026B622ED177CA1C3C5.gwt.rpc
