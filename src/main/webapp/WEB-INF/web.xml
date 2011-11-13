@@ -7,20 +7,10 @@
 
 	<!-- Servlets -->
 	<servlet>
-		<servlet-name>greetServlet</servlet-name>
-		<servlet-class>com.github.tinybacklog.server.GreetingServiceImpl</servlet-class>
-	</servlet>
-
-	<servlet>
 		<servlet-name>projectServlet</servlet-name>
 		<servlet-class>com.github.tinybacklog.server.ProjectServiceImpl</servlet-class>
 	</servlet>
 	
-	<servlet-mapping>
-		<servlet-name>greetServlet</servlet-name>
-		<url-pattern>/TinyBacklog/greet</url-pattern>
-	</servlet-mapping>
-
 	<servlet-mapping>
 		<servlet-name>projectServlet</servlet-name>
 		<url-pattern>/TinyBacklog/project</url-pattern>
