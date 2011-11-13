@@ -70,7 +70,7 @@
             <goals>
               <goal>compile</goal>
               <goal>test</goal>
-              <goal>i18n</goal>
+              <!-- <goal>i18n</goal> -->
               <goal>generateAsync</goal>
             </goals>
           </execution>
@@ -80,7 +80,7 @@
         <configuration>
           <runTarget>TinyBacklog.html</runTarget>
           <hostedWebapp>${webappDirectory}</hostedWebapp>
-          <i18nMessagesBundle>com.github.tinybacklog.client.Messages</i18nMessagesBundle>
+          <!-- <i18nMessagesBundle>com.github.tinybacklog.client.Messages</i18nMessagesBundle> -->
         </configuration>
       </plugin>
 
