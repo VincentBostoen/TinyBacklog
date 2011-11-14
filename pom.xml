@@ -10,7 +10,8 @@
   <artifactId>tinybacklog</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>GWT Maven Archetype</name>
+  <name>TinyBacklog</name>
+  <description>Project that aims to easily create and share backlogs</description>
 
   <properties>
     <!-- Convenience property to set the GWT version -->
